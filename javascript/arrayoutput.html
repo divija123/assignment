@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>array output</title>
+</head>
+<body>
+	<script>
+		function first_element(a,n)
+		{
+			var i;
+			if(n==null)
+				document.write(a[0]);
+			else if(n<0)
+			{
+				document.write("[]");
+			}
+			else
+			{
+			 for(i=0;i<n;i++)
+			{
+				document.write(a[i]);
+			}
+		 }
+		}
+	
+		 first_element([2,3,4],null);
+		 first_element([2,6,7,8,],2);
+		first_element([3,5,6,7,8],-3);
+	</script>
+</body>
+
+</html>		
